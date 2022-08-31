@@ -13,7 +13,7 @@ ExampleModel.init({
     createdAt: {
         type: DataTypes.DATE,
         allowNull: false,
-        defaultValue: Sequelize.NOW,
+        defaultValue: Sequelize.literal('GETDATE()'),
     },
     updatedAt: {
         type: DataTypes.DATE,

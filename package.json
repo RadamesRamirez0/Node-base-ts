@@ -1,0 +1,24 @@
+{
+  "name": "base-ts",
+  "version": "1.0.0",
+  "description": "Base para iniciar una app web node-express-ts",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadamesRamirez0/Node-base-ts.git"
+  },
+  "author": "Radames Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadamesRamirez0/Node-base-ts/issues"
+  },
+  "homepage": "https://github.com/RadamesRamirez0/Node-base-ts#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "sequelize": "^6.21.4"
+  }
+}

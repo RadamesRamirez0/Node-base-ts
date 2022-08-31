@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const port = process.env.port ?? 8000;
-db.sequelize.sync();
+db.sync();
 const server = app.listen(port, () => {
     console.log(`Servidor a la escucha. Puerto: ${port}`);
 });
