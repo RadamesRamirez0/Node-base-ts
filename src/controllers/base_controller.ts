@@ -1,19 +1,19 @@
 import { Request, Response, NextFunction } from "express";
 
 class Controller {
-    public get(req: Request, res: Response, next: NextFunction): void {
+    public async get(req: Request, res: Response, next: NextFunction): Promise<void> {
         throw new Error("Method not implemented.");
     }
 
-    public post(req: Request, res: Response, next: NextFunction): void {
+    public async post(req: Request, res: Response, next: NextFunction): Promise<void> {
         throw new Error("Method not implemented.");
     }
 
-    public put(req: Request, res: Response, next: NextFunction): void {
+    public async put(req: Request, res: Response, next: NextFunction): Promise<void> {
         throw new Error("Method not implemented.");
     }
 
-    public delete(req: Request, res: Response, next: NextFunction): void {
+    public async delete(req: Request, res: Response, next: NextFunction): Promise<void> {
         throw new Error("Method not implemented.");
     }
 }
